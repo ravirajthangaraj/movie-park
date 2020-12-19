@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# config
+src/Config.js
+.firebaserc
+.eslintcache
+firebase.json

@@ -1,0 +1,20 @@
+/**** MOVIE CARD****/
+.movie__poster__card {
+	padding: 20px 10px;
+	cursor: pointer;
+}
+.movie__poster__card .movie__poster__info {
+	transition: 0.2s ease-in-out;
+	box-shadow: 2px 4px 10px #000;
+	border-radius: 8px;
+	float: left;
+}
+.movie__poster__card .movie__poster__info:hover {
+	transform: scale(1.05) rotateX(5deg) rotateY(10deg) rotateZ(5deg);
+}
+
+.movie__poster__info img {
+	border-radius: 8px;
+	float: left;
+	transition: 0.2s ease-in-out;
+}

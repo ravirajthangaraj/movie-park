@@ -1,0 +1,13 @@
+.genre__title {
+	color: #fff;
+	font-size: 28px;
+	margin: 10px 0;
+}
+
+.movies__row {
+	display: flex;
+	overflow-x: scroll;
+}
+.movies__row::-webkit-scrollbar {
+	display: none;
+}
