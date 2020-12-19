@@ -1,3 +1,25 @@
+# Movie Park
+
+https://movie-park.web.app/
+
+This is a information website for Movies, TV Shows and Actors. Data has been provided by The Movie DB API (TMDB). (https://www.themoviedb.org/)
+
+NodeJS version : 14.15.1
+NPM version : 6.14.8
+ReactJS version : 17.0.1
+
+Run `npm install` to install all the dependencies.
+
+Create a file **Config.js** in `/src` directory.
+
+**Config.js**
+
+```js
+export const TMDB_API_KEY = ""; // API_KEY acquired from TMDB account.
+
+export const V4_TOKEN = ""; // V4 ACCESS_TOKEN acquired from TMDB account.
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

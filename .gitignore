@@ -28,3 +28,4 @@ src/Config.js
 .firebaserc
 .eslintcache
 firebase.json
+.firebase/*
