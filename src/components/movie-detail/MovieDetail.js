@@ -22,7 +22,7 @@ function MovieDetail(props) {
 	return (
 		<div className="movie__details">
 			<Grid container spacing={2}>
-				<Grid item xs={12} sm={4}>
+				<Grid item xs={12} sm={4} md={3}>
 					<MovieImage
 						type="poster"
 						imagePath={movie?.poster_path}
@@ -31,7 +31,7 @@ function MovieDetail(props) {
 						styles={{ width: 100 + "%" }}
 					/>
 				</Grid>
-				<Grid item xs={12} sm={8}>
+				<Grid item xs={12} sm={8} md={9}>
 					<div className="movie__info">
 						<h4 className="movie__title">{movie?.title}</h4>
 						<p className="genres">

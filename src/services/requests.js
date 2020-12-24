@@ -9,6 +9,9 @@ const requests = {
 	fetchHorrorMovies: `discover/movie?api_key=${TMDB_API_KEY}&with_genres=27`,
 	fetchMovie: `movie/__MOVIEID__?api_key=${TMDB_API_KEY}&append_to_response=credits`,
 	fetchRelated: `movie/__MOVIEID__/similar?api_key=${TMDB_API_KEY}`,
+	fetchComedyTv: `discover/tv?api_key=${TMDB_API_KEY}&with_genres=35`,
+	fetchActionTv: `discover/tv?api_key=${TMDB_API_KEY}&with_genres=28`,
+	fetchHorrorTv: `discover/tv?api_key=${TMDB_API_KEY}&with_genres=27`,
 };
 
 export default requests;

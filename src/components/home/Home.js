@@ -23,6 +23,18 @@ function Home() {
 				title="Horror Movies"
 				fetchUrl={requests.fetchHorrorMovies}
 			/>
+			<GenreRow
+				title="Action TV Shows"
+				fetchUrl={requests.fetchActionTv}
+			/>
+			<GenreRow
+				title="Comedy TV Shows"
+				fetchUrl={requests.fetchComedyTv}
+			/>
+			<GenreRow
+				title="Horror TV Shows"
+				fetchUrl={requests.fetchHorrorTv}
+			/>
 		</div>
 	);
 }

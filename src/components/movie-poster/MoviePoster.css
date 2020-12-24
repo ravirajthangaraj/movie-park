@@ -8,6 +8,7 @@
 	box-shadow: 2px 4px 10px #000;
 	border-radius: 8px;
 	float: left;
+	position: relative;
 }
 .movie__poster__card .movie__poster__info:hover {
 	transform: scale(1.05) rotateX(5deg) rotateY(10deg) rotateZ(5deg);
@@ -21,4 +22,15 @@
 img.poster {
 	border-radius: 8px;
 	box-shadow: 1px 3px 10px #000;
+}
+.poster__not__available__meta {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width: 90%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
 }
