@@ -2,10 +2,12 @@
 
 https://movie-park.web.app/
 
-This is a information website for Movies, TV Shows and Actors. Data has been provided by The Movie DB API (TMDB). (https://www.themoviedb.org/)
+This is a information website for Movies, TV Shows and Actors created using ReactJS. Data has been provided by The Movie DB API (TMDB). (https://www.themoviedb.org/)
 
 NodeJS version : 14.15.1
+
 NPM version : 6.14.8
+
 ReactJS version : 17.0.1
 
 Run `npm install` to install all the dependencies.

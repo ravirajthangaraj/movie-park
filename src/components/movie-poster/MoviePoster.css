@@ -18,3 +18,7 @@
 	float: left;
 	transition: 0.2s ease-in-out;
 }
+img.poster {
+	border-radius: 8px;
+	box-shadow: 1px 3px 10px #000;
+}

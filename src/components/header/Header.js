@@ -9,14 +9,23 @@ function Header() {
 		<div className="navbar">
 			<AppBar color="primary" position="static">
 				<Toolbar>
-					<Link to="/">
-						<img
-							src={logo}
-							alt="Movie Park"
-							className="brand__logo"
-						/>
-					</Link>
-					<div className="menu__items"></div>
+					<div className="nav-wrapper">
+						<Link to="/">
+							<img
+								src={logo}
+								alt="Movie Park"
+								className="brand__logo"
+							/>
+						</Link>
+						<div className="menu__items">
+							<Link to="/">Home</Link>
+							<Link to="/">Movies</Link>
+							<Link to="/">TV Shows</Link>
+							{/* <Link to="/">
+								<AccountCircle fontSize="small"></AccountCircle>
+							</Link> */}
+						</div>
+					</div>
 				</Toolbar>
 			</AppBar>
 		</div>

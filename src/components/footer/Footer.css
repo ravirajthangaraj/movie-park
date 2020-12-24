@@ -1,0 +1,8 @@
+.app__footer {
+	padding: 20px;
+	text-align: right;
+}
+.footer__tmdb__logo {
+	max-width: 200px;
+	/* float: right; */
+}

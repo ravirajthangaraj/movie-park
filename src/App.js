@@ -3,10 +3,13 @@ import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
+import MovieDetail from "./components/movie-detail/MovieDetail";
 
 import axios from "./services/axios";
 import requests from "./services/requests";
+import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 
 export const ConfigContext = React.createContext({});
 
@@ -33,10 +36,18 @@ function App() {
 			<ThemeProvider theme={theme}>
 				<div className="app">
 					<Router>
-						<Header />
-						<Switch>
-							<Route exact component={Home} path="/"></Route>
-						</Switch>
+						<ScrollToTop>
+							<Header />
+							<Switch>
+								<Route exact component={Home} path="/"></Route>
+								<Route
+									exact
+									component={MovieDetail}
+									path="/movie/:movieTitle"
+								></Route>
+							</Switch>
+							<Footer />
+						</ScrollToTop>
 					</Router>
 				</div>
 			</ThemeProvider>

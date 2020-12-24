@@ -1,4 +1,19 @@
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
 .brand__logo {
 	object-fit: contain;
 	width: 110px;
+}
+.menu__items > a {
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+.menu__items > a:first-child {
+	margin-left: 0;
 }
